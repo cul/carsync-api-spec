@@ -1,0 +1,30 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://dlib.indiana.edu/iiif_av/lunchroom_manners/workingCopies",
+	"@type": "sc:AnnotationList",
+	"motivation": "oa:editing",
+	"resources": [
+		{
+			"@id": "https://dlib.indiana.edu/iiif_av/lunchroom_manners/lunchroom_manners.vtt#workingCopy",
+			"@type": "oa:Annotation",
+			"motivation": "oa:editing",
+			"resource":{
+				"@id": "https://dlib.indiana.edu/iiif_av/lunchroom_manners/lunchroom_manners/working.vtt",
+				"@type": "dctypes:Text",
+				"format": "text/vtt"
+		  	},
+			"on": "https://dlib.indiana.edu/iiif_av/lunchroom_manners/lunchroom_manners.vtt"
+		},
+		{
+			"@id": "https://dlib.indiana.edu/iiif_av/lunchroom_manners/range/0#workingCopy",
+			"@type": "oa:Annotation",
+			"motivation": "oa:editing",
+			"resource":{
+				"@id": "https://dlib.indiana.edu/iiif_av/lunchroom_manners/range/0/working",
+				"@type": "Range",
+				"format": "application/ld+json"
+		  	},
+			"on": "https://dlib.indiana.edu/iiif_av/lunchroom_manners/range/0"
+		}
+	]
+}
